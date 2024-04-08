@@ -1,0 +1,146 @@
+* {
+    font-family: 'Passion One';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fefefe;
+}
+
+.menu_bar {
+    background-color: #016735;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.logo {
+    color: white;
+    font-size: 38px;
+}
+
+.logo span {
+    color: #78C318;
+}
+
+.menu_bar ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu_bar ul li {
+    padding: 10px 30px;
+    position: relative;
+}
+
+.menu_bar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.2s;
+}
+
+.menu_bar ul li a:hover {
+    color: #78C318
+}
+
+.dropdown_menu {
+    display: none;
+}
+
+.menu_bar ul li:hover .dropdown_menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #016735;
+}
+
+.menu_bar ul li:hover .dropdown_menu ul {
+    display: block;
+    margin: 10px;
+}
+
+.menu_bar ul li:hover .dropdown_menu ul li {
+    width: 150px;
+    padding: 10px;
+}
+
+.fas {
+    float: right;
+    margin-left: 10px;
+    padding: 3px;
+}
+
+.carrosel {
+    padding-top: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+.carrosel-img{
+    border-radius: 50px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 0 1 calc(33.33% - 20px);
+    background-color: #f0f0f0;
+    margin: 40px;
+    margin-left: 50px;
+    /* padding: 20px; */
+    height: 250px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.card h2 {
+    margin-top: 0;
+    color: #048BD7;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Pathway Gothic One';
+    font-size: 40px;
+}
+
+.card p {
+    margin-top: 25px;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+.partners{
+    background-color: #048BD7;
+    height: 90px;
+}
+.partners h2{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.partners ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.partners ul li{
+    padding: 0;
+}
+.partners ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 50px;
+}
